@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-Book.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPNeueMontreal';
+	src: url('/static/fonts/PPNeueMontreal-SemiBolditalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@mixin ppneuemontreal($weight: 400, $style: normal) {
+	font-family: 'PPNeueMontreal', sans-serif;
+	font-weight: $weight;
+	font-style: $style;
+	line-height: 1.02;
+}
+
+@font-face {
+	font-family: 'PPEditorialNew';
+	src: url('/static/fonts/PPEditorialNew-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPEditorialNew';
+	src: url('/static/fonts/PPEditorialNew-Ultralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPEditorialNew';
+	src: url('/static/fonts/PPEditorialNew-UltralightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'PPEditorialNew';
+	src: url('/static/fonts/PPEditorialNew-UltraboldItalic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+@mixin ppeditorialnew($weight: 400, $style: normal) {
+	font-family: 'PPEditorialNew', serif;
+	font-weight: $weight;
+	font-style: $style;
+}
+
+@font-face {
+	font-family: 'InstrumentSerif';
+	src: url('/static/fonts/InstrumentSerif-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'InstrumentSerif';
+	src: url('/static/fonts/InstrumentSerif-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@mixin instrumentserif($weight: 400, $style: normal) {
+	font-family: 'InstrumentSerif', serif;
+	font-weight: $weight;
+	font-style: $style;
+	line-height: 1.01;
+}

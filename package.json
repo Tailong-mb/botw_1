@@ -1,0 +1,22 @@
+{
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"nuxt": "^3.10.3",
+		"prettier": "^3.2.5",
+		"sass": "^1.71.1",
+		"vite-plugin-eslint": "^1.8.1",
+		"vue-i18n": "^10.0.4"
+	},
+	"dependencies": {
+		"gsap": "^3.12.5",
+		"lenis": "^1.1.16"
+	}
+}
